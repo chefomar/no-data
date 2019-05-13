@@ -6,8 +6,7 @@
     "build": "npm run clean:build && tsc -p ./tsconfig.json",
     "clean:build": "rimraf dist",
     "pretest": "npm run build",
-    "test": "tslint --test ./src/test/**/tslint.json",
-    "prepare": "npm run build"
+    "test": "tslint --test ./src/test/**/tslint.json"
   },
   "keywords": [
     "tslint"
