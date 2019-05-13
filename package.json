@@ -1,5 +1,5 @@
 {
-  "name": "no-data",
+  "name": "tslint-no-data",
   "version": "1.0.0",
   "description": "TSLint rules to disallow the use of \"data\" as variable or function name",
   "scripts": {
