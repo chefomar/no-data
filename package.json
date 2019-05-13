@@ -7,11 +7,15 @@
     "clean:build": "rimraf dist",
     "pretest": "npm run build",
     "test": "tslint --test ./src/test/**/tslint.json",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "tslint"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chefomar/no-data.git"
+  },
   "author": "omardev <elshinnaweyom@gmail.com>",
   "license": "MIT",
   "devDependencies": {
