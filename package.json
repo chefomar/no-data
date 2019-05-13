@@ -1,0 +1,26 @@
+{
+  "name": "no-data",
+  "version": "0.0.1",
+  "description": "TSLint rules to disallow the use of \"data\" as variable or function name",
+  "scripts": {
+    "build": "npm run clean:build && tsc -p ./tsconfig.json",
+    "clean:build": "rimraf dist",
+    "pretest": "npm run build",
+    "test": "tslint --test ./src/test/**/tslint.json",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "author": "omardev <elshinnaweyom@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.1",
+    "rimraf": "^2.6.3",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  },
+  "peerDependencies": {
+    "tslint": "^5.0.0"
+  }
+}
