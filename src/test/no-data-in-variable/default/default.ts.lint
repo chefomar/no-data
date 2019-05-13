@@ -1,0 +1,13 @@
+const data = 'something';
+      ~~~~  [0]
+
+let data;
+    ~~~~  [0]
+var data;
+    ~~~~  [0]
+const someData = 'something';
+      ~~~~~~~~  [0]
+const DATA = 'DATA';
+      ~~~~  [0]
+
+[0]: The word "data" is not allowed

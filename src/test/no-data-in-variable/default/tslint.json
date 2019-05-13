@@ -1,0 +1,8 @@
+{
+  "rulesDirectory": [
+    "../../../../dist"
+  ],
+  "rules": {
+    "no-data-in-variable": true
+  }
+}
