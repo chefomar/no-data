@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - node
+- node
 before_script:
-  - npm install -g npm@latest
-  - npm ci
+- npm install -g npm@latest
+- npm ci
 script:
-  - npm test
-  - npm run build
+- npm test
+- npm run build
 deploy:
   on:
     tags: true
@@ -14,4 +14,4 @@ deploy:
   provider: npm
   email: elshinnaweyom@gmail.com
   api_key:
-    secure: UY+xD9hmBE6Ik5TxEmGGdr1OZJ78UFPKoHrw0bZPhAq5tTjqTNwuQBgE6thebbrQOq89xjRYmkXFR99HR2/8xEIjfDxE8JJh33R5KvuWdYnrfRkuYcXDbxKmyX+aOG8HUYjvK1ZWhbiULEZJteIbM55rl3A/NNeP7ueEkx7BfGkAUMMy3AOxqdgTXH0UuOPcEnK97WvwizPPygeuJJSlSRZqmftS3/C8YIzuzD3dAZL9xqqfVVqOgGe0haoGfhiYdNLInc3WmoQrgkWbfv/whVQ83jwIaprtLbz80QWMYUTNkrzrtmZQrKQWxKPrQ/nxCX7y/NpC8wbdO20/iFoUxR4iuoa7nM2I2ByFV1XsfPBlITpCnyFYLgxGGe2k++PMhwkK/fcLkng2Zvcr9hKwAIAd7xjOR5jKkXbDhPGZs46BLrYnscvbfDgqvLU6BIBgEhJM9wUEuOgqlxWrENaSkwBoljyjifLxcuQXkSt0jscxMNU6DcEE3qSpcRAiaaGGNWNSpNY3CefZndmJznGxm8J7w1AfcW0tK6KW+BKZCyAoqCWgNSW+3Z9QfkkRtKgNXcUNfQpWKCkyDs0tZXwQZqVFwVtIKqmZoZ81PmtHmbgkTD60XBxv/m0yWXhAHvfwAf7FH9qRMQ2eQoRbRKBAPrvyLJsoHyxv2g+CjBmdn5c=
+    secure: UuMqxHWTTdEQW6FG698RzubWIsQIEKKtMFcylVH+cUodARHpoVDrvB0sGOPyosQfjoCNUW46X6Tr/Q7NYmgRxqnZorNp/vbWvuFxln18mdCB4oYFzRU2uJkEEmCefDN2WlXrY11eMPU9654g+/RbG+yGYcwaLza6BKnu/911idE+k9w6L62bJMCZw1nNBMFMzmiBX7o8oniWN4620FBkP0YXCIKaM7XFmc90ey0Uf/e/t0AmikoAsp/qKzL2B7Oa8Xkj/rsLpjEXIiah2OJFJDmrnOrwjPU5WjQJ/e/FcI9BkPL1Us31BdskhBPVyLLCVUpOj36c7WsJKOqvEnU9GyPeXl21R1x+1l8JrGsjObHV2ltWxvSKN4Gg3rZ9xVm9pZfY+p1Sd384qaQ5iEtpK1rd8cA7ChQDGibKU/74v0+8YNnAH4dX2Hspx8sKSQem6Po8CYp6mUfKzvkagSMCjRYXk1qnNbpBu/fmlPbVL1BKqxEaS1RVliS2kQcXz1Bl56tEaJFABM0vCbseKde+5Oe8YYgeq3nocOJpwiClxMFucjcCNGUj+uehq2QE/E19gTrV3tvDF4fTzKCgEJ9MtOFM6nFvbgvL8wRgmtdB+vPVAHBPWv56HDb07TzDFwgCloD0SWaC9A717mrO7pp3v4bA9b49rKN6NTgept7VDUk=
