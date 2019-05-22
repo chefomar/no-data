@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - node
+before_script:
+  - npm install -g npm@latest
+  - npm ci
+script:
+  - npm test
+  - npm run build
+deploy:
+  on:
+    tags: true
+  skip_cleanup: true
+  provider: npm
+  email: elshinnaweyom@gmail.com
+  api_key:
+    secure: UY+xD9hmBE6Ik5TxEmGGdr1OZJ78UFPKoHrw0bZPhAq5tTjqTNwuQBgE6thebbrQOq89xjRYmkXFR99HR2/8xEIjfDxE8JJh33R5KvuWdYnrfRkuYcXDbxKmyX+aOG8HUYjvK1ZWhbiULEZJteIbM55rl3A/NNeP7ueEkx7BfGkAUMMy3AOxqdgTXH0UuOPcEnK97WvwizPPygeuJJSlSRZqmftS3/C8YIzuzD3dAZL9xqqfVVqOgGe0haoGfhiYdNLInc3WmoQrgkWbfv/whVQ83jwIaprtLbz80QWMYUTNkrzrtmZQrKQWxKPrQ/nxCX7y/NpC8wbdO20/iFoUxR4iuoa7nM2I2ByFV1XsfPBlITpCnyFYLgxGGe2k++PMhwkK/fcLkng2Zvcr9hKwAIAd7xjOR5jKkXbDhPGZs46BLrYnscvbfDgqvLU6BIBgEhJM9wUEuOgqlxWrENaSkwBoljyjifLxcuQXkSt0jscxMNU6DcEE3qSpcRAiaaGGNWNSpNY3CefZndmJznGxm8J7w1AfcW0tK6KW+BKZCyAoqCWgNSW+3Z9QfkkRtKgNXcUNfQpWKCkyDs0tZXwQZqVFwVtIKqmZoZ81PmtHmbgkTD60XBxv/m0yWXhAHvfwAf7FH9qRMQ2eQoRbRKBAPrvyLJsoHyxv2g+CjBmdn5c=
