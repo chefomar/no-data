@@ -20,7 +20,7 @@ export class Rule extends Lint.Rules.AbstractRule {
   public apply(sourceFile: ts.SourceFile): Lint.RuleFailure[] {
     return this.applyWithFunction<NoDataInClassOptions>(sourceFile, walk, {
       allowClassName: this.ruleArguments.includes(ALLOW_CLASS_NAME),
-      allowClassProperties: this.ruleArguments.includes(ALLOW_CLASS_PROPERTIES)
+      allowClassProperties: this.ruleArguments.includes(ALLOW_CLASS_PROPERTIES),
     });
   }
 }
