@@ -23,5 +23,3 @@ The word data is not allowed when declaring variable via `const` `let` or `var`
 
 ## Future work
 - [ ] Disallow in function arguments.
-- [ ] Disallow in class names.
-- [ ] Disallow in class properties.
