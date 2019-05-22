@@ -1,0 +1,8 @@
+{
+  "rulesDirectory": [
+    "../../../../dist"
+  ],
+  "rules": {
+    "no-data-in-class": [true, "allow-class-name", "allow-class-properties"]
+  }
+}

@@ -2,11 +2,8 @@ class SomeData {
       ~~~~~~~~  [0]
     
     someData;
-    ~~~~~~~~    [0]
     public data: string;
-           ~~~~ [0]
     private someOtherData = 1;
-            ~~~~~~~~~~~~~   [0]
 }
 
 class Data {

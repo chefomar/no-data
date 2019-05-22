@@ -1,6 +1,4 @@
 class SomeData {
-      ~~~~~~~~  [0]
-    
     someData;
     ~~~~~~~~    [0]
     public data: string;
@@ -10,7 +8,6 @@ class SomeData {
 }
 
 class Data {
-      ~~~~  [0]
 }
 
 [0]: The word "data" is not allowed
