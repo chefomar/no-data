@@ -12,7 +12,8 @@ In your `tslint.json`:
     "node_modules/no-data/dist"
   ],
   "rules": {
-    "no-data-in-variable": true
+    "no-data-in-variable": true,
+    "no-data-in-class": true
   }
 }
 ```
@@ -31,7 +32,7 @@ The word data is not allowed in class names and class properties.
 ```json
 {
   "rules": {
-    "no-data-in-variable": true
+    "no-data-in-class": true
   }
 }
 ```
@@ -39,7 +40,7 @@ The word data is not allowed in class names and class properties.
 ```json
 {
   "rules": {
-    "no-data-in-variable": [true, "allow-class-name"]
+    "no-data-in-class": [true, "allow-class-name"]
   }
 }
 ```
