@@ -1,0 +1,10 @@
+class SomeData {
+    someData;
+    public data: string;
+    private someOtherData = 1;
+}
+
+class Data {
+}
+
+[0]: The word "data" is not allowed
